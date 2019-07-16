@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +58,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program10.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program11.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program12.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program13.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program14.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program15.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program16.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program17.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program18.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program19.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program2.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program20.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program21.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program22.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program23.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program3.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program4.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program5.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program6.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program7.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program8.cs" />
+    <Compile Include="ManageProgramFlow\ThreadingAsync\Program9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

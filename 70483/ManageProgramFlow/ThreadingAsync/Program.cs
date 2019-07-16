@@ -1,8 +1,7 @@
-﻿using System;
-using System.Threading;
-
-namespace _70483
+﻿namespace _70483.ManageProgramFlow.ThreadingAsync
 {
+    using System;
+    using System.Threading;
     public static class Program
     {
         public static void ThreadMethod()
@@ -13,7 +12,7 @@ namespace _70483
                 Thread.Sleep(60);
             }
         }
-        public static void Main()
+        public static void Main1()
         {
             Thread t = new Thread(new ThreadStart(ThreadMethod));
             t.Start();
